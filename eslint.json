@@ -1,0 +1,10 @@
+{
+  "extends": ["eslint:recommended", "eslint-react", "eslint-config-prettier"],
+  "rulesDirectory": ["eslint-plugin-prettier"],
+  "rules": {
+    "prettier": true,
+    "interface-name": false,
+    "no-console": [true, "log", "error"],
+    "no-any": [true, { "ignore-rest-args": true }]
+  }
+}
